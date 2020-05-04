@@ -1,0 +1,67 @@
+/* Common files and includes */
+@import "common/reset";
+@import "common/colors";
+@import "common/vars";
+
+/* ----------------------------------- */
+/* -------- Common styles  ----------*/
+
+@import "partials/includes/jquery.formstyler";
+@import "partials/includes/daterangepicker";
+@import "partials/includes/ion.rangeSlider";
+@import "partials/includes/fancybox";
+@import "partials/includes/daterangepicker_new";
+
+@import "partials/layout/bootstrap-settings";
+@import "partials/layout/typography";
+@import "partials/layout/head";
+@import "partials/layout/footer";
+@import "partials/layout/buttons";
+@import "partials/layout/base";
+@import "partials/layout/icons";
+@import "partials/layout/form";
+@import "partials/layout/authorization";
+@import "partials/layout/popup";
+@import "partials/layout/chart-bar";
+@import "partials/layout/campaigns-list";
+@import "partials/layout/sidebar";
+@import "partials/layout/filters";
+
+/* --------------------------------------- */
+/* -------- Styles for pages   ----------*/
+
+/* Home page */
+@import "partials/home";
+/* Dashboard */
+@import "partials/dashboard";
+/* Campaigns */
+@import "partials/campaigns";
+/* Calendar */
+@import "partials/calendar";
+/* Balance */
+@import "partials/balance";
+/* Account */
+@import "partials/account";
+/* Sitemap */
+@import "partials/sitemap";
+/* Admin */
+@import "partials/admin";
+/* Common inner styles */
+@import "partials/inner-common";
+/* Admin user */
+@import "partials/admin-user";
+
+
+/* ----------------------------------------- */
+/*---  Include Media styles fo responsive ---*/
+
+/* Media for max width */
+@import "partials/media/media-max";
+/* Media for media-1280px */
+@import "partials/media/media-1280px";
+/* Media for 992px width */
+@import "partials/media/media-992px";
+/* Media for 768px width */
+@import "partials/media/media-768px";
+/* Media for 480px width */
+@import "partials/media/media-480px";

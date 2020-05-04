@@ -1,0 +1,82 @@
+@media screen and (max-width: 480px){
+  .mobile-rotate{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 64px;
+    .mobile_rotate{
+      background: #1300df;
+      width: 128px;
+      height: 128px;
+      border-radius: 100px;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      &:after{
+        content: '';
+        width: 77px;
+        height: 128px;
+        display: inline-block;
+        background: url("../img/icons/icon-rotate.svg") no-repeat center / contain;
+      }
+    }
+    span{
+      font-size: 19px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.68;
+      letter-spacing: normal;
+      text-align: center;
+      color: #020b2b;
+      display: block;
+      padding-top: 25px;
+    }
+    .icon{
+      text-align: center;
+    }
+  }
+  .dashboard-page .mainbar{
+    display: none;
+  }
+  .header-nav, .footer, .content{
+    display: none;
+  }
+  .auth-popup{
+    display: none;
+  }
+  .header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .wrapper{
+    height: auto;
+    min-height: auto;
+  }
+  .notifications-counter{
+    display: none;
+  }
+  .sidebar-main .sidebar-nav{
+    display: none;
+  }
+  .sidebar-footer{
+    display: none;
+  }
+  .notifications{
+    opacity: 0;
+  }
+  .sidebar-nav_mobile{
+    display: none;
+  }
+}

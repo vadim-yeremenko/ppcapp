@@ -1,0 +1,33 @@
+.pages-list{
+
+  .page-item{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e3df;
+  }
+  .page-item_page{
+    color: #0d95e8;
+    font-size: 18px;
+    display: block;
+    width: 20%;
+
+  }
+  .page-item_design{
+    color: #0d95e8;
+    font-size: 18px;
+    display: block;
+    width: 30%;
+    text-align: right;
+  }
+  .page-item_comment{
+    font-size: 16px;
+    color: #4e4e4e;
+    width: auto;
+    flex-grow: 2;
+  }
+}

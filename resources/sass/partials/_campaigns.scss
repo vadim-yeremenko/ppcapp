@@ -1,0 +1,238 @@
+.campaign-daily-table{
+  width: 352px;
+  .value{
+    font-weight: bold;
+  }
+  .table-head{
+    .table-col:nth-child(1){
+      width: 100%;
+    }
+  }
+  .table-row{
+    .value{
+      white-space: nowrap;
+    }
+    .table-col:nth-child(1){
+      width: 60%;
+      padding-right: 24px;
+      flex-grow: 3;
+    }
+    .table-col:nth-child(2){
+      width: 30%;
+      position: relative;
+      padding-left: 24px;
+      padding-right: 24px;
+      text-align: right;
+      flex-grow: 1;
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 34px;
+        opacity: 0.64;
+        background-color: #e3edf6;
+        right: 0;
+        top: 50%;
+        margin-top: -16px;
+      }
+    }
+    .table-col:nth-child(3){
+      min-width: 70px;
+      max-width: 70px;
+      text-align: right;
+      padding-left: 24px;
+      padding-right: 24px;
+      flex-grow: 1;
+    }
+  }
+}
+
+.change-none{
+  display: none !important;
+}
+
+.campaign-traffic-source{
+  width: 336px;
+  .table-row .table-col:nth-child(1){
+    width: 150%;
+    flex-grow: 2;
+  }
+  .table-row .table-col:nth-child(2){
+    width: 50%;
+    text-align: right;
+  }
+  .value{
+    font-weight: bold;
+  }
+  .url-btn{
+    span{
+      white-space: nowrap;
+    }
+  }
+}
+
+.campaign-details-box{
+  width: 352px;
+  border-radius: 4px;
+  border: solid 1px #e3edf6;
+  background-color: #ffffff;
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  .campaign-details-box_head{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e3edf6;
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .title{
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #7e89ac;
+  }
+  .value{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #020b2b;
+  }
+  .campaign-details-box_row{
+    display: flex;
+    padding-bottom: 13px;
+    .url-btn{
+      span{
+        font-weight: bold;
+      }
+    }
+    .col{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      &:nth-child(1){
+        width: 150%;
+      }
+      &:nth-child(2){
+        width: 50%;
+        text-align: right;
+      }
+    }
+  }
+  .campaign-details-box_footer{
+    text-align: center;
+    padding: 5px 0 24px;
+  }
+}
+
+.campaign-traffic-source-big{
+  width: 720px;
+  .table-col{
+    width: auto !important;
+  }
+  .table-head .table-col:nth-child(1){
+    padding-left: 16px !important;
+  }
+  .table-row{
+    padding-left: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .table-head .table-col:nth-child(2){
+    padding-right: 0 !important;
+
+  }
+  .table-col:nth-child(1){
+    flex-grow: 2;
+    width: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .table-col:nth-child(2){
+    padding-right: 16px;
+    padding-left: 16px;
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+
+  }
+  .table-col:nth-child(3){
+    text-align: left;
+    padding-left: 16px;
+    position: relative;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 1px;
+      height: 34px;
+      opacity: 0.64;
+      background-color: #e3edf6;
+      left: 0;
+      top: 50%;
+      margin-top: -16px;
+    }
+  }
+  .table-head{
+    padding-right: 16px;
+  }
+}
+
+#disable-campaign{
+  max-width: 552px;
+  width: 100%;
+  .popup_title{
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.5px;
+    color: #101f51;
+    text-transform: uppercase;
+  }
+  .popup_body{
+    span{
+      display: block;
+    }
+  }
+  .disable_title{
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.68;
+    letter-spacing: normal;
+    color: #020b2b;
+  }
+  .disable_subtitle{
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    color: #7e89ac;
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }
+  .btn-blue{
+    margin-bottom: 24px;
+  }
+}

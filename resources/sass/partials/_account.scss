@@ -1,0 +1,150 @@
+.input-box-account{
+  .left-label{
+    label{
+      min-width: 112px;
+    }
+  }
+
+  .input-box_l{
+    width: 62.5%;
+  }
+  .input-box_r{
+    width: 24.5%;
+  }
+  .form-item{
+    position: relative;
+  }
+  .input-box_input{
+    width: 392px;
+    margin-right: 20px;
+  }
+}
+
+.popup{
+  .fancybox-close-small{
+    display: none;
+  }
+}
+
+.top-label{
+  flex-direction: column;
+  display: flex;
+  label{
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  textarea{
+    font-size: 13px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    padding: 5px;
+  }
+}
+
+.input-box_flex{
+  display: flex;
+  .col{
+    width: 50%;
+    margin-left: 32px;
+    &:first-of-type{
+      margin-left: 0;
+    }
+  }
+}
+
+.input-box_img .input-box_btns{
+  flex-grow: 2;
+  a{
+    display: inline-flex;
+  }
+}
+
+.input-box_img .input-box_input{
+  width: auto !important;
+}
+
+.account-avatar{
+  width: 64px;
+  height: 64px;
+  .img{
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    border-radius: 100px;
+    border: solid 1px #e2e4f4;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .avatar-field{
+    position: absolute;
+    opacity: 0;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+  }
+}
+
+.input-box_btns{
+  margin-left: 24px;
+
+  &.pl-120{
+    padding-left: 104px;
+  }
+  .btn-edit{
+    margin-bottom: 8px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.is-invalid{
+  border-color: brown;
+}
+
+.product-image-box  {
+  .form-item{
+    margin-bottom: 0;
+  }
+  .img{
+    border-radius: 0px;
+  }
+  .input-box_btns .btn-edit{
+    margin-bottom: 0;
+    margin-right: 8px;
+  }
+  .btns-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .input-field-required{
+    height: auto;
+  }
+  .input-field-required .input-field-status{
+    right: -10px;
+  }
+}
+
+
+.table-footer-btn{
+  transition: 0.3s;
+  overflow: hidden;
+  &.fadeout{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    padding: 0 !important;
+
+  }
+}
+.fadeout{
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+}

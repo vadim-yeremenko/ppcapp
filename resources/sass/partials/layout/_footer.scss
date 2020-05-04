@@ -1,0 +1,42 @@
+.footer{
+  .container{
+    border-top: 1px solid #e3edf6;
+  }
+
+}
+
+.footer_nav{
+  ul{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    padding-left: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    &:first-of-type{
+      padding-left: 0;
+    }
+    a{
+      opacity: 0.64;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.23;
+      letter-spacing: normal;
+      color: #7e89ac;
+      transition: 0.4s;
+      &:hover{
+        opacity: 1;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.mainbar-footer{
+  .logout{
+    display: none;
+  }
+}

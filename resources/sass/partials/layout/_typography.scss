@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,400i,600,600i,700,700i&display=swap');
+
+p{
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: $primaryColor;
+}
+
+b,
+strong {
+  font-weight: bold;
+  color: $bold_text_color;
+}
+
+p.small,
+small{
+  color: $small_text_color;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+}
+
+.title-underlined{
+  border-bottom: 2px solid #e3edf6;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  h2{
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: 0.5px;
+    color: #101f51;
+    text-transform: uppercase;
+  }
+}
+
+.h4-like{
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: 0.5px;
+  color: #101f51;
+  text-transform: uppercase;
+}
+
+.ck-content{
+  h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #020b2b;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #020b2b;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  h3{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #020b2b;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  h4{
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #020b2b;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  h5{
+
+  }
+  i{
+    font-style: italic;
+  }
+  b{
+    font-weight: bold;
+  }
+  strong{
+    font-weight: bold;
+  }
+  ul{
+    list-style: disc;
+    margin-left: 20px;
+    li{
+      padding: 5px 0;
+      display: block;
+    }
+  }
+  ol{
+    margin-left: 20px;
+    li{
+      padding: 5px 0;
+      display: block;
+    }
+  }
+}

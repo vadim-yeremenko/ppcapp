@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#EDF2F8" d="M48 7v24.04a8 8 0 0 1-8 8H21.927L14.344 45v-5.96H8V15a8 8 0 0 1 8-8h32z"/>
+        <path stroke="#0E5BA8" stroke-width="2" d="M43 3v24.04a8 8 0 0 1-8 8H16.927L9.344 41v-5.96H3V11a8 8 0 0 1 8-8h32z"/>
+        <text fill="#0E5BA8" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold">
+            <tspan x="13" y="26">VS</tspan>
+        </text>
+    </g>
+</svg>
